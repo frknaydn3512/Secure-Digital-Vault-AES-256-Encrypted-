@@ -1,0 +1,25 @@
+## Visual Studio Özel Klasörleri
+.vs/
+[Vv]isual[Ss]tudio[Cc]onfig/
+
+## Derleme ve Geçici Dosyalar (Asla Gitmemeli)
+[Bb]in/
+[Oo]bj/
+out/
+
+## Kullanıcıya Özel Ayarlar
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## Kasa Verileri (Güvenlik için repoya dahil edilmez)
+# Kendi bilgisayarındaki test verilerinin yanlışlıkla gitmesini engeller
+kasa_verileri.dat
+kasa_sifresi.hash
+*.mp4
+*.temp
+
+## İşletim Sistemi Kalıntıları
+Thumbs.db
+Desktop.ini
